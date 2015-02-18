@@ -1,0 +1,207 @@
+javac -d class/ StandardIO.java
+cd class
+java StandardIO < ../datafiles/StandardIO-in >out
+diff --strip-trailing-cr out ../datafiles/StandardIO-out
+cd ..
+
+javac -d class/ queue.java
+javac -d class/ war.java
+cd class
+java war < ../datafiles/war-in >out
+diff --strip-trailing-cr out ../datafiles/war-out
+cd ..
+
+javac -d class/ name.java
+cd class
+java name < ../datafiles/name-in >out
+diff --strip-trailing-cr out ../datafiles/name-out
+cd ..
+
+javac -d class/ sorting.java
+cd class
+java sorting >out
+diff --strip-trailing-cr out ../datafiles/sorting-out
+cd ..
+
+javac -d class/ suitor.java
+javac -d class/ polly.java
+cd class
+java polly < ../datafiles/polly-in >out
+diff --strip-trailing-cr out ../datafiles/polly-out
+cd ..
+
+javac -d class/ bignum.java
+javac -d class/ bignum_test.java
+cd class
+java bignum_test < ../datafiles/bignum-in >out
+diff --strip-trailing-cr out ../datafiles/bignum-out
+cd ..
+
+javac -d class/ primes.java
+cd class
+java primes < ../datafiles/primes-in >out
+diff --strip-trailing-cr out ../datafiles/primes-out
+cd ..
+
+javac -d class/ gcd_test.java
+cd class
+java gcd_test < ../datafiles/gcd-in >out
+diff --strip-trailing-cr out ../datafiles/gcd-out
+cd ..
+
+javac -d class/ subsets.java
+cd class
+java subsets >out
+diff --strip-trailing-cr out ../datafiles/subsets-out
+cd ..
+
+javac -d class/ permutations.java
+cd class
+java permutations >out
+diff --strip-trailing-cr out ../datafiles/permutations-out
+cd ..
+
+javac -d class/ 8-queens.java
+cd class
+java queens >out
+diff --strip-trailing-cr out ../datafiles/8-queens-out
+cd ..
+
+javac -d class/ graph.java
+javac -d class/ queue.java
+javac -d class/ bfsdemo.java
+cd class
+java bfsdemo <../datafiles/grid >out
+diff --strip-trailing-cr out ../datafiles/grid-bfs-demo-out
+cd ..
+
+javac -d class/ graph.java
+javac -d class/ dfsdemo.java
+cd class
+java dfsdemo <../datafiles/grid >out
+diff --strip-trailing-cr out ../datafiles/grid-dfs-demo-out
+cd ..
+
+javac -d class/ graph.java
+javac -d class/ queue.java
+javac -d class/ connected.java
+cd class
+java connected <../datafiles/connected-in >out
+diff --strip-trailing-cr out ../datafiles/connected-out
+java connected <../datafiles/grid >out
+diff --strip-trailing-cr out ../datafiles/grid-connected-out
+cd ..
+
+javac -d class/ topsort.java
+cd class
+java topsort <../datafiles/grid >out
+diff --strip-trailing-cr out ../datafiles/grid-topsort-out
+cd ..
+
+javac -d class/ primdemo.java
+cd class
+java primdemo <../datafiles/wgrid >out
+diff --strip-trailing-cr out ../datafiles/wgrid-prim-out
+cd ..
+
+javac -d class/ dijkstrademo.java
+cd class
+java dijkstrademo <../datafiles/wgrid >out
+diff --strip-trailing-cr out ../datafiles/wgrid-dijkstra-out
+cd ..
+
+javac -d class/ floyddemo.java
+cd class
+java floyddemo <../datafiles/wgrid >out
+diff --strip-trailing-cr out ../datafiles/wgrid-floyd-out
+cd ..
+
+javac -d class/ netflowdemo.java
+cd class
+java netflowdemo <../datafiles/netflow1-in >out
+diff --strip-trailing-cr out ../datafiles/netflow1-out
+java netflowdemo <../datafiles/netflow2-in >out
+diff --strip-trailing-cr out ../datafiles/netflow2-out
+java netflowdemo <../datafiles/netflow3-in >out
+diff --strip-trailing-cr out ../datafiles/netflow3-out
+cd ..
+
+javac -d class/ editbrute.java
+cd class
+java editbrute <../datafiles/editbrute-in > out
+diff --strip-trailing-cr out ../datafiles/editbrute-out
+cd ..
+
+javac -d class/ stringedit.java
+cd class
+java stringedit <../datafiles/stringedit-in > out
+diff --strip-trailing-cr out ../datafiles/stringedit-out
+cd ..
+
+javac -d class/ lcs.java
+cd class
+java lcs <../datafiles/stringedit-in > out
+diff --strip-trailing-cr out ../datafiles/lcs-out
+cd ..
+
+javac -d class/ substringedit.java
+cd class
+java substringedit <../datafiles/substringedit-in > out
+diff --strip-trailing-cr out ../datafiles/substringedit-out
+cd ..
+
+javac -d class/ elevator.java
+cd class
+java elevator <../datafiles/elevator-in > out
+diff --strip-trailing-cr out ../datafiles/elevator-out
+cd ..
+
+javac -d class/ order.java
+cd class
+java order > out
+diff --strip-trailing-cr out ../datafiles/order-out
+cd ..
+
+javac -d class/ plates.java
+cd class
+java plates <../datafiles/plates1-in > out
+diff --strip-trailing-cr out ../datafiles/plates1-out
+java plates <../datafiles/plates2-in > out
+diff --strip-trailing-cr out ../datafiles/plates2-out
+java plates <../datafiles/plates3-in > out
+diff --strip-trailing-cr out ../datafiles/plates3-out
+cd ..
+
+javac -d class/ geotest.java
+cd class
+java geotest <../datafiles/geotest-in > out
+diff --strip-trailing-cr out ../datafiles/geotest-out
+cd ..
+
+javac -d class/ superman.java
+cd class
+java superman <../datafiles/superin1 > out
+diff --strip-trailing-cr out ../datafiles/superin1-out
+java superman <../datafiles/superin2 > out
+diff --strip-trailing-cr out ../datafiles/superin2-out
+java superman <../datafiles/superin3 > out
+diff --strip-trailing-cr out ../datafiles/superin3-out
+java superman <../datafiles/superin4 > out
+diff --strip-trailing-cr out ../datafiles/superin4-out
+cd ..
+
+javac -d class/ cgtest.java
+cd class
+java cgtest <../datafiles/cgtest-in > out
+diff --strip-trailing-cr out ../datafiles/cgtest-out
+cd ..
+
+javac -d class/ triangulate.java
+cd class
+java triangulate <../datafiles/tri1 > out
+diff --strip-trailing-cr out ../datafiles/tri1-out
+java triangulate <../datafiles/tri2 > out
+diff --strip-trailing-cr out ../datafiles/tri2-out
+java triangulate <../datafiles/tri3 > out
+diff --strip-trailing-cr out ../datafiles/tri3-out
+cd ..
