@@ -23,7 +23,10 @@ public class CheckIfAnElementIsWithinTheRange {
 				return;
 			}
 			set.add(arr[i]);
-			set.remove(i-k);
+			if(i >= k)
+			{
+				set.remove(i-k);
+			}
 		}
 		System.out.println("the element is not in the specified width");
 	}
