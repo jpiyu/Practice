@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Center Window</title>
+
+</head>
+<body>
+<script type = "text/javascript">
+<a href = "#"
+onClick = "if ((parseInt(navigator.appVersion) > 3) &&
+(navigator.appName == 'Netscape')) {
+var the_window =
+window.open('http://www.nostarch.com/',
+'the_window','height=200,width=200');
+var screen_height = window.screen.availHeight;
+var screen_width = window.screen.availWidth;
+var left_point = parseInt(screen_width / 2) - 100;
+var top_point = parseInt(screen_height / 2) - 100;
+the_window.moveTo(left_point, top_point);
+} return false;">Click me to open a small centered window</a>
+</script>
+<h1>Hi!</h1>
+</body>
+</html>

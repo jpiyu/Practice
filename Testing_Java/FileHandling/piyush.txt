@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title dir = "rtl"> dir </title>
+</head>
+<body dir = "rtl" >
+<p> hello </p>
+<div class="footnotes">
+<h2>Footnotes</h2>
+<p><span ><strong>1</strong> The World Wide Web was
+invented by Tim Berners-Lee</span></p>
+<p><strong>2</strong> The W3C is the World Wide Web Consortium
+which maintains many Web standards</p>
+This chapter is taken from <cite>Beginning Web Development</cite>.
+<p>As Dylan Thomas said, <q>Somebody's boring me. I think it's me</q>.</p>
+This book teaches you how to mark up your documents for the Web using <dfn>
+<abbr title="HyperText Markup Language">HTML</abbr></dfn>
+<h1>How to Spot a Wrox Book</h1>
+<p>Wrox-spotting is a popular pastime in bookshops. Programmers like to find
+the distinctive <del>blue</del><ins>red</ins> spines because they know that
+Wrox books are written by <del>1000 monkeys</del><ins>Programmers</ins> for
+Programmers.</p>
+<ins><p>Both readers and authors, however, have reservations about the use
+of photos on the covers.</p></ins>
+</div
+</body>
+</html>

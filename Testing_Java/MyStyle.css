@@ -1,0 +1,45 @@
+ #mainlayout {
+ margin-left: 170px;
+ margin-right: 170px;
+ margin-top:0px;
+ margin-bottom:0px;
+ border-style :ridge; }
+ #wrapper {
+ height : 2.5em;
+ background-color : rgb(41,41,41);
+ align : top;
+ }
+ #h1id {
+ font-family : courier new;
+ font-size : 24px;
+ color : yellow;
+ }
+ #divid1 { background-color : rgb(2,57,114);
+  border-style : dotted;
+ height :8.0em;
+ }
+ .pclass { color : white ;
+ 	font-family : times new roman;
+ 	}
+ .divclass1 {
+ background-color : rgb(175,59,0);
+ border-style :solid;
+ height : 2.0em;
+ }
+ .topnav {
+ border-style :ridge ;
+color: rgb(0, 0, 0);
+text-decoration: none;
+  }
+  .leftcolumn  {
+  width : 170;
+  background-color : pink;
+  padding-top: 20em;
+  }
+  .rightcolumn {
+  width : 170px;
+  float :right;
+  padding-top :20em;
+  background-color :pink;
+  }
+ 

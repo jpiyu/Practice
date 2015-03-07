@@ -1,0 +1,35 @@
+my sql consist- mysql server, several utiltity programs that assist in the admiistration of mysql databases, and some supporting software
+my sql server is the manager of the database system, it handle all yout database instructions.
+php stands for hyper text pre processor
+php is an embedded scrippting lang when used in web pages. this means that php code is embedded in html code
+when php lang statments ate procesed only the output is sent by the web server to web browser. the php lang statments are not included in output, so the php code is secure and transparent to the user
+ex.....<?php echo "<p>hello world";?>
+<?php........is the php opening tag
+?>........ is the closing tag
+echo....... is php instruction to output the upcoming text
+the php software processes the php statment and ouptput this
+<p>hello world.........which is a regulat heml statement.
+html statement is delivered to browser, and it interpret it as html code and display a web page as
+hello world
+php statement is not delivered to browser,user never sees any php statements
+php and the web server must work closely together
+
+
+
+setting up ur network
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
