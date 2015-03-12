@@ -68,5 +68,8 @@ public class StringsThatStartAndEndWith1 {
 			}
 			System.out.println();
 		}
+		
+		
+		//now find out the max element
 	}
 }
