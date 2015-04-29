@@ -1,9 +1,6 @@
-import java.io.AppleFarmeam;
-import java.io.PrintWriter;
 import java.io.*;
-
 public class AppleFarm {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		InputReader reader = new InputReader(System.in);
 		PrintWriter out = new PrintWriter(System.out);
 		int n = reader.readInt();
