@@ -7,9 +7,8 @@ public class AppleFarmSolution {
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("enter the dimensions of the apple farm");
-		String[] dimensions = br.readLine().split(" ");
-		int rows = Integer.parseInt(dimensions[0]);
-		int columns = Integer.parseInt(dimensions[1]);
+		int rows = Integer.parseInt(br.readLine());
+		int columns = Integer.parseInt(br.readLine());
 		int field[][] = new int[rows][columns];
 		System.out.println("enter the number of apples in each tree");
 		for(int i=0;i<rows;i++)
@@ -48,7 +47,6 @@ public class AppleFarmSolution {
 			}
 			System.out.println();
 		}
-		System.out.println("the maximum number of apples collected are : " + resultArray[rows-1][columns-1]);
 	}
 	static int max(int a,int b)
 	{

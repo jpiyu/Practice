@@ -23,9 +23,8 @@ public class SwapArrayInWaveForm {
 	public static void main(String[] args)
 	{
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter the size of the array");
-		int nElems = s.nextInt();
 		System.out.println("Enter the array");
+		int nElems = s.nextInt();
 		Array a = new Array(nElems);
 		int i=0;
 		while(i < nElems)
@@ -33,8 +32,8 @@ public class SwapArrayInWaveForm {
 			a.add(s.nextInt());
 			i++;
 		}
-		//System.out.println(a.getSize());
-		/*for(int j=0;j<a.getSize();j++)
+		/*System.out.println(a.getSize());
+		for(int j=0;j<a.getSize();j++)
 		{
 			System.out.println(a.arr[j]);
 		}*/
@@ -47,7 +46,7 @@ public class SwapArrayInWaveForm {
 		int temp = 0;
 		for(int i=1;i<arr.length;i=i+2)
 		{
-			if(arr[i] > arr[i-1])
+			if(arr[i] < arr[i-1])
 			{
 				temp = arr[i];
 				arr[i] = arr[i-1];

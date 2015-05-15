@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class redJohn {
 	int N;
-	boolean[] primes=new boolean[1000000]; 
+	boolean[] primes=new boolean[1000000];
 	int[] table=new int[1];
 	public redJohn(int I) {
 		N=I;
@@ -18,8 +18,8 @@ public class redJohn {
 	}
 
 	public void fillSieve() {
-		Arrays.fill(primes,true);       
-		primes[0]=primes[1]=false;       
+		Arrays.fill(primes,true);
+		primes[0]=primes[1]=false;
 		for (int i=2;i<primes.length;i++) {
 			if(primes[i]) {
 				for (int j=2;i*j<primes.length;j++) {
@@ -67,10 +67,15 @@ public class redJohn {
 		 if(table[n]==-2)
 		 {
 			 if (n<4) table[n]=1;
-			 else 
+			 else
 			 {
-				 table[n]=helper(n-1) + helper(n-4); 
+				 table[n]=helper(n-1) + helper(n-4);
 			 }
+		 }
+		 System.out.println(table.length);
+		 for(int i=0;i<table.length;i++)
+		 {
+			 System.out.print(table[i] + " ");
 		 }
 		 return table[n];
 	 }
